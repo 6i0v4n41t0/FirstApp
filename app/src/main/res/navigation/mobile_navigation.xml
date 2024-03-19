@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.giovana.firstapp.view.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/calculoFragment"
+        android:name="com.giovana.firstapp.view.CalculoFragment"
+        android:label="CalculoFragment"
+        tools:layout="@layout/fragment_calculo"/>
+    <fragment
+        android:id="@+id/verificaFragment"
+        android:name="com.giovana.firstapp.view.VerificaFragment"
+        android:label="fragment_verifica"
+        tools:layout="@layout/fragment_verifica" />
+</navigation>
