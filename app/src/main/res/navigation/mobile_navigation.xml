@@ -12,7 +12,7 @@
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/calculoFragment"
-        android:name="com.giovana.firstapp.view.CalculoFragment"
+        android:name="com.giovana.firstapp.view.PessoaFragment"
         android:label="CalculoFragment"
         tools:layout="@layout/fragment_calculo"/>
     <fragment
