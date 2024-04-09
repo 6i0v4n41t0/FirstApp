@@ -40,6 +40,22 @@
         android:inputType="number"
         android:layout_gravity="center"/>
 
+    <TextView
+        android:id="@+id/tvSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sexo: "
+        android:textSize="24sp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/edtSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu sexo"
+        android:inputType="text"
+        android:layout_gravity="center"/>
+
 
     <Button
         android:id="@+id/btnEnviar"

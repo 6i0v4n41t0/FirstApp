@@ -8,16 +8,21 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.giovana.firstapp.view.HomeFragment"
-        android:label="fragment_home"
+        android:label="First App"
         tools:layout="@layout/fragment_home" />
     <fragment
-        android:id="@+id/calculoFragment"
+        android:id="@+id/pessoaFragment"
         android:name="com.giovana.firstapp.view.PessoaFragment"
-        android:label="CalculoFragment"
-        tools:layout="@layout/fragment_calculo"/>
+        android:label="Pessoa"
+        tools:layout="@layout/fragment_pessoa"/>
     <fragment
         android:id="@+id/verificaFragment"
         android:name="com.giovana.firstapp.view.VerificaFragment"
         android:label="fragment_verifica"
         tools:layout="@layout/fragment_verifica" />
+    <fragment
+        android:id="@+id/allPessoasFragment"
+        android:name="com.giovana.firstapp.view.AllPessoasFragment"
+        android:label="Pessoas"
+        tools:layout="@layout/fragment_all_pessoas" />
 </navigation>

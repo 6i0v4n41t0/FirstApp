@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.giovana.firstapp.R
-import com.giovana.firstapp.databinding.FragmentCalculoBinding
+import com.giovana.firstapp.databinding.FragmentPessoaBinding
 import com.giovana.firstapp.databinding.FragmentVerificaBinding
 
 class VerificaFragment : Fragment() {
