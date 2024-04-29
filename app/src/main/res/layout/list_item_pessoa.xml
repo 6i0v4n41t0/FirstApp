@@ -43,16 +43,18 @@
                     android:textStyle="bold" />
                 <ImageView
                     android:id="@+id/ivSexoF"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
                     android:src="@drawable/ic_woman"
-                    app:tint="@color/white" />
+                    app:tint="#BF0C49" />
+
                 <ImageView
                     android:id="@+id/ivSexoM"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
                     android:src="@drawable/ic_man"
-                    app:tint="@color/white" />
+                    android:scaleType="centerCrop"
+                    app:tint="#2A3C9E" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"

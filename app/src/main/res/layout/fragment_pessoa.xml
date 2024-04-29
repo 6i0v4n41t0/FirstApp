@@ -48,21 +48,46 @@
         android:textSize="24sp"
         android:layout_gravity="center"/>
 
-    <EditText
-        android:id="@+id/edtSexo"
+    <RadioGroup
+        android:id="@+id/rgSexo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Digite seu sexo"
-        android:inputType="text"
-        android:layout_gravity="center"/>
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbFeminino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Feminino"/>
+        <RadioButton
+            android:id="@+id/rbMaculino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Masculino"/>
+    </RadioGroup>
 
 
     <Button
         android:id="@+id/btnEnviar"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Enviar"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/btnDeletar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Excluir"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:visibility="invisible"/>
 </LinearLayout>

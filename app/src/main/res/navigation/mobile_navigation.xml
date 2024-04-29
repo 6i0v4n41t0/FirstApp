@@ -18,11 +18,16 @@
     <fragment
         android:id="@+id/verificaFragment"
         android:name="com.giovana.firstapp.view.VerificaFragment"
-        android:label="fragment_verifica"
+        android:label="Edição"
         tools:layout="@layout/fragment_verifica" />
     <fragment
         android:id="@+id/allPessoasFragment"
         android:name="com.giovana.firstapp.view.AllPessoasFragment"
         android:label="Pessoas"
         tools:layout="@layout/fragment_all_pessoas" />
+    <fragment
+        android:id="@+id/pessoaDetailFragment"
+        android:name="com.giovana.firstapp.view.PessoaDetailFragment"
+        android:label="Pessoas Detalhes"
+        tools:layout="@layout/fragment_pessoa_detail" />
 </navigation>
